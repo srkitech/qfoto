@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Srđan Cvetković"> <!-- https://srkitech.github.io/ -->
+    <title>Q Foto - Besplatna HTML tema</title>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-154971823-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-154971823-1');
+    </script>
+
+    <!-- Bootstrap / Fonts Awsome / jQuery / Fonts / User -->
+    <link media="all" rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link media="all" rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link media="all" rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script defer async src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script defer async src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link media="all" rel="stylesheet" type="text/css" href="css/style.min.css" />
+    <script defer src="script/page.min.js"></script>
+
+    <!-- For Google -->
+    <meta name="description" content="Q Foto - Besplatna HTML tema. Mi se nalazimo na adresi Trči pa nađi broj čik pogodi koj. Ne nudimo baš nikakve usluge osim besplatne teme.">
+    <meta name="keywords" content="q, foto, besplatna, html, tema, fotoradnja, q-foto, fotograf, radnja, usluge, fotografija, stampa, skeniranje, izrada, dokumenta
+    q foto, besplatna html tema, besplatna tema fotografija,
+    srki, tech, srkitech, srkitech.github.io, srđan, cvetković, srdjan, cvetkovic, trgovinski, tehničar, trade, tehnician, portfolio, 
+    srđan cvetković, srdjan cvetkovic, trgovinski tehničar, trade tehnician, srđan cvetković trgovinski tehničar, srdjan cvetkovic trade technician">
+
+    <!-- For Facebook / LinkedIn, url to your website, url to your image 256x256 px -->
+    <meta property="og:url" content="https://srkitech.github.io/q-foto/"/> 
+    <meta property="og:image" content="https://srkitech.github.io/q-foto/images/q-foto.jpg">
+    <meta property="og:title" content="Q Foto - Besplatna HTML tema"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:site_name" content="Q Foto - Besplatna HTML tema"/>
+    <meta property="og:description" content="Q Foto - Besplatna HTML tema. Mi se nalazimo na adresi Trči pa nađi broj čik pogodi koj. Ne nudimo baš nikakve usluge osim besplatne teme."/>
+    <meta property="og:image:width" content= "1200" />
+    <meta property="og:image:height" content= "630" />
+
+    <!-- For Twitter , url to your image 256x256 twice, twitter @your_id -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Q Foto - Besplatna HTML tema" />
+    <meta name="twitter:description" content="Q Foto - Besplatna HTML tema. Mi se nalazimo na adresi Trči pa nađi broj čik pogodi koj. Ne nudimo baš nikakve usluge osim besplatne teme." />
+    <meta name="twitter:image" content="https://srkitech.github.io/q-foto/images/q-foto-tema.jpg" />
+    <meta name="twitter:image:src" content="https://srkitech.github.io/q-foto/images/q-foto-tema.jpg">
+    <meta name="twitter:image:width" content= "210" />
+    <meta name="twitter:image:height" content= "210" />
+
+    <!-- Favicons generate here https://realfavicongenerator.net/ -->
+    <link rel="apple-touch-icon" sizes="180x180" href="images/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/icons/favicon-16x16.png">
+    <link rel="manifest" href="images/icons/site.webmanifest">
+    <link rel="mask-icon" href="images/icons/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="shortcut icon" href="favicon.ico" sizes="48x48"/>
+
+    <!-- Schema generate here https://hallanalysis.com/json-ld-generator/ -->
+
+    <!-- Preload -->
+    <link rel="preload" as="image" href="images/intro1.jpg">
+    <link rel="preload" as="image" href="images/intro2.jpg">
+    <link rel="preload" as="image" href="images/intro3.jpg">
+    <link rel="preload" as="image" href="images/intro4.jpg">
+</head>
+<body id="Top">
+    <!-- NAVIGATION -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        
+        <div class="container">
+            
+            <!-- Link to Homepage -->
+            <a class="navbar-logo" href="index.html" title="SEO">
+                <img src="images/Logo.png" alt="SEO" width="30" height="30">
+                <!-- Only 1 H1 per page allowed for good SEO -->
+                <h1>Q Foto - Besplatna HTML tema</h1>
+            </a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample07" aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarsExample07">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" id="page_services" href="javascript:void(0)" title="SEO"><i class="fas fa-print"></i> Usluge</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="page_pricing" href="javascript:void(0)" title="SEO"><i class="fas fa-briefcase"></i> Cenovnik</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="page_contact" href="javascript:void(0)" title="SEO"><i class="fas fa-mobile-alt"></i> Kontakt</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+        
+    </nav>
+
+    <!-- PAGE -->
+    
+    <div class="container page-content about">
+        <div class="row">   
+    
+            <div class="intro1" id="intro">
+
+                <img alt="q food Besplatna HTML tema" src="images/q-foto-tema.png">      
+            
+                <ul id="MyIntroNav">
+                <li><a class="selected" id="img1" title="" href="javascript:void(0)" rel="nofollow"></a></li>
+                <li><a id="img2" title="" href="javascript:void(0)" rel="nofollow"></a></li>
+                <li><a id="img3" title="" href="javascript:void(0)" rel="nofollow"></a></li>
+                <li><a id="img4" title="" href="javascript:void(0)" rel="nofollow"></a></li>
+                </ul>
+
+                <ul class="MySocialSEO">
+                <li><a class="a2a_dd" href="https://www.addtoany.com/share" title="" rel="nofollow"><i class="fas fa-share-alt"></i></a></li>
+                <li><a href="https://www.facebook.com/" title="" target="_blank" rel="nofollow"><span class="fa fa-facebook"></span></a></li>
+                <li><a href="https://www.instagram.com/" title="" target="_blank" rel="nofollow"><span class="fa fa-instagram"></a></li>
+                <li><a href="https://www.youtube.com/channel/" title="" target="_blank" rel="nofollow"><span class="fa fa-youtube"></a></li>
+                <li><a href="https://www.linkedin.com/" title="" target="_blank" rel="nofollow"><span class="fa fa-linkedin"></a></li>
+                <li><a href="https://twitter.com/" title="" target="_blank" rel="nofollow"><span class="fa fa-twitter"></a></li>
+                <!-- AddToAny BEGIN -->
+                <script>
+                var a2a_config = a2a_config || {};
+                a2a_config.onclick = 1;
+                a2a_config.num_services = 8;
+                </script>
+                <script async src="https://static.addtoany.com/menu/page.js"></script>
+                <!-- AddToAny END -->
+                </ul>
+
+            </div>
+
+            <div id="artline"></div>
+            
+            <!-- Services -->
+            <div class="col-sm-12 PageSubsection" id="Page_Services">
+                <i class="fas fa-print"></i> <span>Usluge</span>
+            </div>
+
+            <div class="col-sm-12">
+
+                <div class="col-sm-12 SocialText">
+                    <p class="text-center">Q Foto - Besplatna HTML tema. Mi se nalazimo na adresi Trči pa nađi broj čik pogodi koj. Ne nudimo baš nikakve usluge osim besplatne teme. :)
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="col-sm-3 usluge">
+                <img src="images/usluge/fotokopiranje.jpg" alt="">
+                <p>Fotokopiranje</p>
+            </div>
+
+            <div class="col-sm-3 usluge">
+                <img src="images/usluge/skeniranje.jpg" alt="">
+                <p>Skeniranje dokumenta</p>
+            </div>
+
+            <div class="col-sm-3 usluge">
+                <img src="images/usluge/citanje-dokumenata.jpg" alt="">
+                <p>Očitavanje dokumenta</p>
+            </div>
+
+            <div class="col-sm-3 usluge">
+                <img src="images/usluge/izrada-foto-dokumenta.jpg" alt="">
+                <p>Izrada fotografija za dokumenta</p>
+            </div>
+
+            <div class="col-sm-3 usluge">
+                <img src="images/usluge/stampa-svih-formata.jpg" alt="">
+                <p>Štampa svih formata</p>
+            </div>
+            
+            <div class="col-sm-3 usluge">
+                <img src="images/usluge/stampa-vizit-karta.jpg" alt="">
+                <p>Štampa vizit karti</p>
+            </div>
+
+            <div class="col-sm-3 usluge">
+                <img src="images/usluge/stampa-majca.jpg" alt="">
+                <p>Štampa na majicama</p>
+            </div>
+
+            <div class="col-sm-3 usluge">
+                <img src="images/usluge/stampa-solja.jpg" alt="">
+                <p>Štampa na šoljama</p>
+            </div>
+
+
+            <!-- Pricing -->
+            <div class="col-sm-12 PageSubsection" id="Page_Pricing">
+                <i class="fas fa-briefcase"></i><span>Cenovnik</span>
+            </div>
+            <div class="col-sm-12 row">
+
+
+                <div class="col-sm-6">
+
+                    <table class="table">
+                        <thead>
+                        <tr>
+                            <th colspan="3">CRNO BELA ŠTAMPA</th>
+                        </tr>
+                        <tr>
+                            <th scope="col">Broj strana</th>
+                            <th scope="col">Papir 80gr/m2</th>
+                            <th scope="col">Papir preko 80gr/m2</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <th scope="row">1-10</th>
+                            <td> rsd</td>
+                            <td> rsd</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">11-50</th>
+                            <td> rsd</td>
+                            <td> rsd</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">51-100</th>
+                            <td> rsd</td>
+                            <td> rsd</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">101+</th>
+                            <td> rsd</td>
+                            <td> rsd</td>
+                        </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+
+                <div class="col-sm-6">
+
+                    <table class="table">
+                        <thead>
+                        <tr>
+                            <th colspan="3">KOLOR ŠTAMPA</th>
+                        </tr>
+                        <tr>
+                            <th scope="col">Broj strana</th>
+                            <th scope="col">Papir 80gr/m2</th>
+                            <th scope="col">Papir preko 80gr/m2</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <th scope="row">1-10</th>
+                            <td> rsd</td>
+                            <td> rsd</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">11-50</th>
+                            <td> rsd</td>
+                            <td> rsd</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">51-100</th>
+                            <td> rsd</td>
+                            <td> rsd</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">101+</th>
+                            <td> rsd</td>
+                            <td> rsd</td>
+                        </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+
+                <div class="col-sm-6">
+
+                    <table class="table">
+                        <thead>
+                            <tr>
+                            <th colspan="2">VIZIT KARTE mala količina</th>
+                            </tr>
+                            <tr>
+                            <th scope="col">Do 150 komada</th>
+                            <th scope="col">rsd/kom</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                            <th scope="row">jednostrano</th>
+                            <td> rsd</td>
+                            </tr>
+                            <tr>
+                            <th scope="row">obostrano</th>
+                            <td> rsd</td>
+                            </tr>
+                        </tbody>
+                        </table>
+
+                </div>
+
+                <div class="col-sm-6">
+
+                    <table class="table">
+                        <thead>
+                            <tr>
+                            <th colspan="2">VIZIT KARTE velika količina</th>
+                            </tr>
+                            <tr>
+                            <th scope="col">Preko 500 komada</th>
+                            <th scope="col">rsd/kom</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                            <th scope="row">jednostrano</th>
+                            <td> rsd</td>
+                            </tr>
+                            <tr>
+                            <th scope="row">obostrano</th>
+                            <td> rsd</td>
+                            </tr>
+                        </tbody>
+                        </table>
+
+                </div>
+
+                <div class="col-sm-12">
+
+                    <table class="table">
+                    <thead>
+                        <tr>
+                        <th colspan="2">ŠTAMPA NA MATERIJALIMA</th>
+                        </tr>
+                        <tr>
+                        <th scope="col">Usluga</th>
+                        <th scope="col">rsd/kom</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                        <th scope="row">Štampa na šoljama</th>
+                        <td> rsd</td>
+                        </tr>
+                        <tr>
+                        <th scope="row">Štampa na svetlim majicama</th>
+                        <td> rsd</td>
+                        </tr>
+                        <tr>
+                        <th scope="row">Štampa na tamnim majicama</th>
+                        <td> rsd</td>
+                        </tr>
+                        <tr>
+                        <th scope="row">Štampa na vašim svetlim majicama</th>
+                        <td> rsd</td>
+                        </tr>
+                        <tr>
+                        <th scope="row">Štampa na vašim tamnim majicama</th>
+                        <td> rsd</td>
+                        </tr>
+                        <tr>
+                        <th scope="row">Posteri 180 gr/m2</th>
+                        <td> rsd</td>
+                        </tr>
+                        <tr>
+                        <th scope="row">Štampa na foliji gr/m2</th>
+                        <td> rsd</td>
+                        </tr>
+                    </tbody>
+                    </table>
+
+                </div>
+
+            </div>
+            
+            <!-- Contact -->
+            <div class="col-sm-12 PageSubsection" id="Page_Contact">
+                <i class="fas fa-mobile-alt"></i> <span>Kontakt</span>
+            </div>
+
+            <div class="col-sm-12 row NoPr kontakt">
+                <div class="col-sm-6 NoPr">
+                    <div class="container-fluid NoP">
+                    <div class="map-responsive NoP">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d181139.3549165952!2d20.28251451889236!3d44.815403288435114!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a7aa3d7b53fbd%3A0x1db8645cf2177ee4!2sBelgrade!5e0!3m2!1sen!2srs!4v1613621128074!5m2!1sen!2srs" width="600" height="450" frameborder="0" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                    </div>
+                    </div>
+                    <br>
+                </div>
+            
+                <div class="col-sm-6">
+                    Q Foto - Besplatna HTML tema
+                    <br>
+                    Adresa: Besplatna HTML tema
+                    <br>
+                    <a href="tel:+381 xxx xxx" title="Q Food Besplatna HTML tema">tel: 011 xxx xxx</a>
+                    <br><br>
+                    Radno vreme
+                    <br>
+                    pon-sub: xx-xx h
+                    <br>
+                    ned: xx-xx h
+                    <br><br>
+                </div>
+            </div>
+
+            <!-- Footer -->
+            <div class="col-sm-12 footer">
+                <a href="https://srkitech.github.io/" title="SrkiTech - Srđan Cvetković trgovinski Tehničar">Q Foto - Besplatna HTML tema</a>
+            </div>
+
+        </div>
+
+        <button onclick="" id="page_top" title="Go to top">Vrh</button>
+    </div>
+
+    <div class="row NoMP">
+        <div class="author">
+            <a title="SrkiTech - Srđan Cvetković Trgovinski Tehničar" target="_blank" href="https://srkitech.github.io">Srđan Cvetković Trgovinski Tehničar</a>
+        </div>
+    </div>
+</body>
+</html>
